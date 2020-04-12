@@ -26,11 +26,6 @@ struct Bbox
 		auto tm_min = glm::max(min.x, glm::max(min.y, min.z));
 		auto tm_max = glm::min(max.x, glm::min(max.y, max.z));
 
-		if (tm_max < tm_min)
-		{
-			return { -1.0f, -1.0f };
-		}
-
-		return { tm_min, tm_max };
+		return tm_max < tm_min ? glm::vec2(-1.0f) : glm::vec2(tm_min, tm_max);
 	}
 };
