@@ -86,7 +86,7 @@ for sample_no in range(1, number_of_samples + 1):
             )
     context.synchronize()
     
-    window.title("A Minimal Volumetric Renderer on GPU --- " + "Sample Count: " + str(sample_no))
+    window.title("A Mini Volumetric Renderer on GPU --- " + "Sample Count: " + str(sample_no))
     photo = ImageTk.PhotoImage(image = Image.fromarray((output / sample_no * 255.0).astype(np.uint8)))
     canvas.itemconfig(image_on_canvas, image=photo)
     window.update()

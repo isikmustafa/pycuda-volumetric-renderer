@@ -9,7 +9,7 @@ A mini volumetric renderer written in Cuda-C++ and PyCuda
 1. See and play with _configs.txt_.
 1. `python app.py`
 
-# Functionality
+# Features
 * This project is aimed to be fun. There isn't even a next-event estimation in this renderer. It is a pure hobby project to see how PyCuda is working
 * The only light source is a very simple procedural environment light.
 * Delta tracking is used to sample free path.
