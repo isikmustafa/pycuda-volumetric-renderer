@@ -1,8 +1,8 @@
-inputVolumePath: C:/Users/Mustafa/Desktop/smoke_density.xyz
+inputVolumePath: smoke_density.xyz
 numberOfSamples: 1024
 outputWidth: 768
 outputHeight: 1024
-cameraPosition: [0.5, 0.5, -0.3]
+cameraPosition: [-0.2, 0.5, -0.3]
 blockSize: 8
 absorptionFactor: 150.0
 scatteringFactor: 500.0
